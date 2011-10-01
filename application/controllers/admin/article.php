@@ -933,7 +933,7 @@ class Article extends MY_admin
 
 		$this->template = array('parent' => 'article');
 
-		if (isset($context['link']))		
+		if (!empty($context['link']))		
 		{
 			$title = NULL;
 			
